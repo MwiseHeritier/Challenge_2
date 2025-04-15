@@ -1,0 +1,29 @@
+body{
+    font-family: sans-serif;
+}
+
+header{
+    background-color: #000000;
+}
+
+.register, .number, .button, .contact-container{
+    background-color: #ffbd50;
+}
+.input{
+    background-color: #ffedd0;
+}
+.feature-container, .icon{
+    background-color: #fbf9f5;
+}
+
+@media screen and (max-width: 1000px){
+    .social-media, .featured{
+        display: none;
+    }
+    .december{
+        display: none;
+    }
+    
+
+}
+
