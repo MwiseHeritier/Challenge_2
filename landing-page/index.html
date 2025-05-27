@@ -7,51 +7,52 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body class="">
     <header class="bg-black pb-96">
-        <div class="flex lg:flex-row flex-col py-16 px-10 lg:gap-y-1 gap-y-6">
-            <div class="lg:w-4/12 w-full lg:pl-1 pl-52  justify-center">
-                <p class="text-yellow-500 font-bold text-3xl Corso font-lobster">Corso</p>
-            </div>
+        
 
-            <div class="lg:w-8/12 w-full">
-                <ul class="flex flex-row text-white justify-end lg:gap-6 gap-4 font-semibold">
-                    <li>
-                        <a href="#">REGISTER</a>
-                    </li>
+<nav class="">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 pt-10 pb-20">
+    <p class="text-yellow-500 font-bold text-3xl corso font-lobster">Corso</p>
 
-                    <li>
-                        <a href="#">DETAILS</a>
-                    </li>
+    <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+        </svg>
+    </button>
+    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+     <ul class="font-medium flex flex-col p-4 md:p-0 mt-4  rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
+    
+        <li>
+          <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">REGISTER</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">DETAilS</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">DATE</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-                    <li>
-                        <a href="#">DATE</a>
-                    </li>
-
-                    <li>
-                        <a href="#">CONTACT</a>
-                    </li>
-
-                    <li>
-                        <a href="#"><i class="fa-brands fa-facebook-f rounded-full button px-2 py-1 social-media"></i></a>
-                    </li>
-
-                    <li>
-                        <a href="#"><i class="fa-brands fa-twitter button rounded-full px-2 py-1 social-media"></i></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
 
        <div class="flex flex-col text-center gap-6 bg-black text-white ">
             <p>This offer has expired!</p>
             <p class="lg:text-6xl text-3xl font-bold">SEO Training Course</p>
             <p class="text-lg lg:w-full w-10/12  font-thin">Do you feel like you're doing a lot of guess work when it comes to SEO for your website? Take the SEO training course to change that</p>
             <div class="flex justify-center gap-4 ">
-                <button class="button py-3 px-12 rounded-3xl font-semibold text-black">REGISTER</button>
-                <button class="border-2 border-white py-3 px-12 rounded-3xl font-semibold">DISCOVER</button>
+                <button class="button py-3 px-10 rounded-3xl font-semibold text-black">REGISTER</button>
+                <button class="border-2 border-white py-3 px-10 rounded-3xl font-semibold">DISCOVER</button>
             </div>
         </div>
     </header>
@@ -61,9 +62,9 @@
             <div class="flex justify-center">
                 <img class="w-8/12 lg:-m-72 -m-48 rounded-lg" src="./assets/images/details-slide-3.jpg" alt="">
             </div>
-            <div class="w-10/12 flex lg:flex-row flex-col justify-center lg:pt-96 pt-60 pl-32 gap-x-1 gap-y-6">
+            <div class="w-10/12  flex lg:flex-row flex-col justify-center lg:pt-96 pt-60 lg:pl-32 pl-10  gap-x-1 gap-y-6">
                 <div class="lg:w-7/12 w-full flex flex-col justify-center  gap-4 lg:pl-32">
-                    <p class="lg:text-4xl text-3xl  font-bold">Register Using The Form</p>
+                    <p class="lg:text-4xl text-3xl w-full font-bold">Register Using The Form</p>
                     <p class="font-thin ">It's easy to register for the course, just fill out the form and click submit. Then you will be registered for one of the best SEO training courses in the industry</p>
                     <p class="font-thin"><span class="font-bold">. Your information</span> is required to complete the registration</p>
                     <p class="font-thin"><span class="font-bold">. It's safe with us</span> and will not be used for marketing</p>
